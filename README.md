@@ -1,1 +1,1 @@
-# AWQBOT
+# BOT
