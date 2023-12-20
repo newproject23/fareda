@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = '6214363158:AAGy2L2uOfitn4k7VW5VJkn1gYIDCgEaVc8' 
+            tokenBot = '6667859840:AAGRhtQ2KeQyQTuVxSHXWysd9noywr85GU0' 
             
-            idSudo = 6250435647
+            idSudo = 956893993
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -29,9 +29,9 @@ if wr is None:
             jsonFile.close()
     else:
         
-        tokenBot = '6185311761:AAF1960-FhRxYpmU_qYvADz_AlQy5zI93hU'
+        tokenBot = '6667859840:AAGRhtQ2KeQyQTuVxSHXWysd9noywr85GU0'
         
-        idSudo = 6250435647
+        idSudo = 956893993
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)
@@ -50,11 +50,11 @@ TOKEN = data['Token']
 
 
 # Your API ID and Hash from https://my.telegram.org/apps
-API_ID = 8039541
-API_HASH = "a33bbdb4aab8726bdc2c73442a0eaeb5"
+API_ID = 20619105
+API_HASH = "4124fe31fea2535a682f0e174f3137c8"
 
 # Chat used for logs
-log_chat = 6250435647
+log_chat = 956893993
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers
